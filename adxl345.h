@@ -180,7 +180,7 @@ struct ADXL345_Power
 struct ADXL345_Tap
 {
     enum ADXL345_Axis axes;
-    unsigned char duration; // 625 �s/LSB
+    unsigned char duration; // 625 us/LSB
     unsigned char latent; // 1.25 ms/LSB
     bool suppress;
     unsigned char threshold; // 62.5 mg/LSB
